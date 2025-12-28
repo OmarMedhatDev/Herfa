@@ -1,0 +1,31 @@
+# Django Core
+Django>=6.0,<7.0
+djangorestframework>=3.14.0
+django-cors-headers>=4.3.0
+
+# Authentication
+djangorestframework-simplejwt>=5.3.0
+
+# Database (PostgreSQL support)
+psycopg2-binary>=2.9.9
+
+# Async Tasks
+celery>=5.3.0
+redis>=5.0.0
+django-celery-results>=2.5.0
+# Note: django-celery-beat doesn't support Django 6.0 yet, using alternative or skip for now
+# django-celery-beat>=2.5.0
+
+# WebSockets
+channels>=4.0.0
+channels-redis>=4.1.0
+
+# AI/ML Services
+opencv-python>=4.8.0
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# Utilities
+python-decouple>=3.8
+pytz>=2023.3
+
